@@ -1,7 +1,9 @@
 {
 	"admin_server": {
 	    "listen_url": "0.0.0.0:3333",
-	    "use_tls": false
+	    "use_tls": true,
+	    "cert_path": "path/to/cert.pem",
+	    "key_path": "path/to/key.pem"
 	},
 	"phish_server": {
 	    "listen_url": "0.0.0.0:8080",
